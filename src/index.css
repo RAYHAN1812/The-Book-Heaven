@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        height: 100%;
+    }
+    
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #root {
+        flex-grow: 1; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    *:focus-visible {
+        outline: 2px solid theme('colors.primary') !important;
+        outline-offset: 3px;
+        border-radius: theme('borderRadius.lg');
+    }
+}
+
+@layer components {
+    .main-heading {
+        @apply text-4xl md:text-5xl font-extrabold text-primary mb-6;
+    }
+
+    .card-style {
+        @apply card bg-base-100 shadow-xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-1 h-full;
+    }
+
+    .react-tooltip {
+        @apply bg-primary text-white font-semibold rounded-lg shadow-lg p-2;
+    }
+}
