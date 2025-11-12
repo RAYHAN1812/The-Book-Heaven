@@ -1,16 +1,24 @@
-# React + Vite
+# The Book Haven 📚
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Site:** [https://your-live-site-url.vercel.app](https://your-live-site-url.vercel.app)
 
-Currently, two official plugins are available:
+## Overview
+The Book Haven is a web platform for book enthusiasts to explore, share, and manage books. Users can add books, leave comments, and browse a wide range of categories. It integrates Firebase Authentication for secure login and real-time commenting using Socket.io.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **User Authentication:** Sign up, log in, and secure access using Firebase Authentication.
+- **Book Management:** Add, update, or delete books you own, with full CRUD functionality.
+- **Real-Time Comments:** Users can leave comments on books and see updates instantly.
+- **Category & Rating System:** Organize books by category and provide ratings from 1 to 5.
+- **Responsive Design:** Fully responsive UI for mobile, tablet, and desktop devices.
+- **Image Uploads:** Upload book cover images with easy integration to ImgBB.
+- **Private Routes:** Certain actions (add/update/delete books) are restricted to logged-in users.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+- React.js, React Router DOM
+- Tailwind CSS & DaisyUI
+- Firebase Authentication
+- Node.js & Express.js
+- MongoDB (Mongoose)
+- Socket.io for real-time comments
+- Axios for API calls
