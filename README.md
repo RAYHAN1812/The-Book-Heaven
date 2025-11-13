@@ -22,3 +22,4 @@ The Book Haven is a web platform for book enthusiasts to explore, share, and man
 - MongoDB (Mongoose)
 - Socket.io for real-time comments
 - Axios for API calls
+live link - https://thunderous-speculoos-85e594.netlify.app/book/69138ce2d678e656367983ee
