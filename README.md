@@ -1,6 +1,6 @@
 # The Book Haven 📚
 
-**Live Site:** [https://your-live-site-url.vercel.app](https://your-live-site-url.vercel.app)
+
 
 ## Overview
 The Book Haven is a web platform for book enthusiasts to explore, share, and manage books. Users can add books, leave comments, and browse a wide range of categories. It integrates Firebase Authentication for secure login and real-time commenting using Socket.io.
